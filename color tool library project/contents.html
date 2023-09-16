@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/6d3b596002.js" crossorigin="anonymous"></script>
+    <script src="java.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="style.css" rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500&family=Playfair+Display&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <div class="title">
+        <div class="line"><h1>color lighten\darken</h1></div>
+        <div class="hexi">
+            <label for="hex" id="first">Color (hex)</label>
+            <input type="text" id="hexInput" placeholder="#000000" name="hex">
+        </div>
+        <div class="toggle">
+            <p class="toggle_text" id="lightenText">Lighten</p>
+            <div class="toggle_btn" id="toggleBtn">
+                <div class="inner_circle"></div>
+            </div>
+            <p class="toggle_text" id="darkenText">Darken</p>
+        </div>
+        <div class="slide">
+            <label for="slider" id="sliderText">0%</label>
+            <input type="range" id="slider" min="0" max="100" value="0" name="slider" class="slider">
+        </div>
+        <p>input Color</p>
+        <div id="inputColor" class="box"></div>
+        <p id="acolor">alterdColor</p>
+        <div id="alteredColor" class="box"></div>
+    </div>
+</div>
+</body>
+</html>
